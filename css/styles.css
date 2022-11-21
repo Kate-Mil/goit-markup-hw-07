@@ -163,7 +163,7 @@ color: var(--activeSelection);
 /*----------------------HERO--------------------------*/
 
 .hero {
-  width: 1600px;
+ max-width: 1600px;
   min-height: 600px;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -173,6 +173,7 @@ color: var(--activeSelection);
   padding-bottom: 200px;
   text-align: center;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-background/hero-img.jpg);
+  background-position: center;
 
 }
 
@@ -443,7 +444,7 @@ color: var(--activeSelection);
   font-size: 14px;
 }
 
-.social-links-container {
+footer .social-links-container {
   margin-left: 70px;
   margin-right: 93px;
 }
