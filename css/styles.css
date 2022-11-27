@@ -40,21 +40,21 @@ a {
   color: inherit;
 }
  */
-.container{
+/* .container{
   width: 1200px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
   
-}
-.section {
+} */
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /*----------------------HEADER-----------------------*/
 
-.site-header {
+/* .site-header {
   border: 1px solid #ECECEC;
 
 }
@@ -157,13 +157,13 @@ color: var(--activeSelection);
 
  .contact-link-icon{
   fill: currentColor;
-}
+} */
 
 
 /*----------------------HERO--------------------------*/
 
-.hero {
- max-width: 1600px;
+/* .hero {
+  max-width: 1600px;
   min-height: 600px;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -220,11 +220,11 @@ color: var(--activeSelection);
 .hero-btn:active {   
   background-color: #188CE8;
   
-}     
+}      */
 
 /*----------------------FEATURES-------------------*/
 
-.features {
+/* .features {
   display: flex;
   gap: 30px;
 }
@@ -256,11 +256,11 @@ color: var(--activeSelection);
   line-height: calc(24/14);
   letter-spacing: 0.03em;
   width: 270px;
-}
+} */
 
 /*------------------OUR SERVICES---------------------*/
 
-.about {
+/* .about {
   padding-top: 0;
 }
 .section__title {
@@ -293,12 +293,12 @@ color: var(--activeSelection);
   line-height: calc(16/14);
   padding-top: 27px;
   padding-bottom: 27px;
-}
+} */
 
 
 /*-----------------OUR TEAM------------------------*/
 
-.our-team {
+/* .our-team {
 background-color: #F5F4FA;
 }
 
@@ -336,11 +336,11 @@ background-color: #F5F4FA;
   font-size: 16px;
   line-height: calc(19/16);
   margin-bottom: 16px;
-}
+} */
 
 /*------------------CLIENTS--------------------*/
 
-.clients {
+/* .clients {
   display: flex;
   justify-content: space-between;
 }
@@ -366,13 +366,13 @@ background-color: #F5F4FA;
 
 .clients__icon {
   fill: currentColor;
-}
+} */
 
 
 
 /*-------------------FOOTER--------------------*/
 
-.footer {
+/* .footer {
   background-color: var(--backgroundFooter);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -411,14 +411,8 @@ color: var(--activeSelection);
   }
 
 
-.logo-footer {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
+.logo--footer {
   color: var(--addColor);
-  display: inline-block;
   margin-bottom: 20px;
 }
 
@@ -486,33 +480,15 @@ footer .social-links {
  }
 
  .sibscribe-form-btn {
-  background: var(--activeSelection);
-  color: var(--addColor);
-  letter-spacing: 0.06em;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30/16);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 10px 13px 10px 28px;
   min-width: 200px;
   min-height: 50px;
-  transition: background-color var(--animation);
-
+  
 }
 
-.sibscribe-form-btn:focus,
-.sibscribe-form-btn:hover,
-.sibscribe-form-btn:active {   
-  background-color: #188CE8;  
-}     
 
  .btn-icon {
   fill: currentColor;
@@ -539,11 +515,11 @@ footer .social-links {
  }
 
  
-  
+   */
 /*---------------PORTFOLIO---------------------*/
 /*---------------FILTRES------------------------*/
 
-.section__title--visually-hidden {
+/* .section__title--visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -554,9 +530,9 @@ footer .social-links {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
-.filter{
+/* .filter{
   display:flex;
   margin-bottom: 50px;
   justify-content: center;
@@ -588,11 +564,11 @@ footer .social-links {
   background-color: var(--activeSelection);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
+ */
 /*----------------------PROJECTS----------------*/
 
 
-.projects{
+/* .projects{
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -671,13 +647,13 @@ footer .social-links {
 opacity: 1;
 transform: translateY(0px);
 
-}
+} */
  
 
 
 /*--------------MODAL------------*/
 
-.backdrop {
+/* .backdrop {
 position: fixed;
 top: 0;
 left: 0;
@@ -882,25 +858,5 @@ margin-bottom: 12px;
   align-items: center;
   width: 200px;
   padding: 10px 52px;
-  background: var(--activeSelection);
-  color: var(--addColor);
-  letter-spacing: 0.06em;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30/16);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-
-  transition: ackground-color var(--animation) ;
-  
 }
-
-.modal-form-btn:focus,
-.modal-form-btn:hover,
-.modal-form-btn:active {   
-  background-color: #188CE8;  
-}     
+ */
